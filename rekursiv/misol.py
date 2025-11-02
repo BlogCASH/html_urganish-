@@ -1,5 +1,8 @@
-# Kvadratning yuzini hisoblaymiz
-kvdrt_tmni = 20 # Kavdratning tomoni 20 ga teng
-kvdrt_yuzi = kvdrt_tmni**2 # Kvadrat yuzini hisoblaymiz
-print(kvdrt_yuzi)
- 
+# def darajaga_kotar(son, daraja):
+#     """Sonni darajaga ko'taruvchi rekursiv funksiya."""
+#     if daraja == 0:
+#         return 1
+#     else:
+#         return son * darajaga_kotar(son, daraja - 1)
+#     #  return son ** daraja
+# print(darajaga_kotar(2, 10))
