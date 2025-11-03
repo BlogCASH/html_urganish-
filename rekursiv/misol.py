@@ -1,20 +1,4 @@
-# # def darajaga_kotar(son, daraja):
-# #     """Sonni darajaga ko'taruvchi rekursiv funksiya."""
-# #     if daraja == 0:
-# #         return 1
-# #     else:
-# #         return son * darajaga_kotar(son, daraja - 1)
-# #     #  return son ** daraja
-# # print(darajaga_kotar(2, 10))
-# def parametrni_top(son):
-#     """Berilgan sonning raqamlar yig'indisini topuvchi rekursiv funksiya."""
-#     if son == 0:
-#         return 0
-#     else:
-#         return son % 10 + parametrni_top(son // 10)
-def sonning_yigindisini_top(son ,sonlar):
-    if son + sonlar:
-        return son + sonlar
-    else:
-        return sonning_yigindisini_top(son // 10, sonlar + son % 10)
-print(sonning_yigindisini_top(1234,0))
+# radius = 5
+# pi = 3.14159
+# aylana_yuzi = pi * radius**2
+# print("Radiusi" , radius, "ga teng aylananing yuzi=", aylana_yuzi)
